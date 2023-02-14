@@ -10,8 +10,8 @@ const options =  {
     localDownLoadPath: './'
 }
 const cp = new myscp(options);
-const log = cp.list('-lrt');
-// const log = cp.download('get_atf_type.py'); 
+// const log = cp.list();
+const log = cp.download('game1.txt'); 
 
 // console.log(log);
 
